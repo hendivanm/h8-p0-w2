@@ -1,0 +1,107 @@
+[Exercise 1] Berlatih dengan Pseudocode
+
+1. Newton Second Law
+
+Algoritma:
+=========
+
+1. Menyimpan "mass" sebesar 600
+2. Menyimpan "acceleration" sebesar 2
+3. Menghitung "mass" * "acceleration"
+4. Memberikan nilai "Force" dengan hasil perhitungan
+5. Menampilkan "Force"
+
+END ==> "Force" yang dihasilkan sebesar 1200 Newton
+
+Pseudocode:
+==========
+
+STORE "mass" to 600
+STORE "acceleration" to 2
+STORE "Force" without any value
+
+CALCULATE "mass" times "acceleration"
+SET "Force" value with calculation result
+
+DISPLAY "Force"
+
+
+2. Tahun Kabisat
+
+Algoritma:
+=========
+
+1. Menyimpan "year" dengan nilai berapapun
+2. Jika "year" habis dibagi 4 dengan hasil nya 0 dan "year" dibagi 100 dengan hasil nya tidak 0, maka lanjut ke tahap 3,
+	2.a Jika "year" habis dibagi 4 dengan hasil nya 0, dan "year" habis dibagi 100 dengan hasil nya 0, dan "year" habis dibagi 400 dengan 		    hasil nya 0, maka lanjut ke tahap 3
+	2.b Selain kriteria pada tahap 2 dan 2.a maka menampilkan "Bukan tahun kabisat"
+3. Menampilkan "Tahun Kabisat"
+
+
+END ==> Mengetahui tahun kabisat atau tidak
+
+Pseudocode:
+==========
+
+STORE "year" with any value
+
+IF "year" mod 4 === 0 AND "year" mod 100 !== 0
+	DISPLAY "Tahun Kabisat"
+ELSE IF "year" mod === 0 AND "year" mod 100 === 0 AND "year" mod 400 === 0
+	DISPLAY "Tahun Kabisat"
+ELSE
+	DISPLAY "Bukan tahun kabisat"
+END IF
+
+
+3. Laundry Day:
+
+Algoritma:
+=========
+
+1. Menyimpan "clothes" sebesar 0
+2. Sementara "clothes" belum mencapai 20, maka menambahkan "clothes" sebanyak 1
+4. Menampilkan "Washing clothes!"
+
+END ==> Mencuci pakaian dengan mesin cuci
+
+Pseudocode:
+==========
+
+STORE "clothes" to 0
+
+WHILE "clothes" < 20
+	ADD "clothes" by 1
+END WHILE
+
+DISPLAY "Washing clothes!"
+
+
+4. Periksa Kuku:
+
+Algoritma:
+=========
+
+1. Menyimpan "student" sebesar 0
+2. Sementara "student" belum mencapai 40, maka menambahkan "student" sebanyak 1
+3. Jika kuku siswa/ siswi panjang, maka lanjut ke tahap 5
+4. Jika kuku siswa/ siswi pendek, maka lanjut ke tahap 6
+5. Menghukum siswa/ siswi
+6. Memuji siswa/ siswi
+
+END ==> Mengetahui kuku suatu siswa/ siswi panjang atau pendek
+
+Pseudocode:
+==========
+
+STORE "student" to 0
+STORE "nail" to true or false
+// true = long, false = short
+
+WHILE "student" < 40
+	ADD "students" by 1
+	IF "nail" === true
+		DISPLAY "Menghukum siswa/ siswi"
+	ELSE
+		DISPLAY "Memuji siswa/ siswi"
+END WHILE
