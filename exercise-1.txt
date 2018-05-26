@@ -1,5 +1,3 @@
-[Exercise 1] Berlatih dengan Pseudocode
-
 1. Newton Second Law
 
 Algoritma:
@@ -38,7 +36,7 @@ Algoritma:
 3. Menampilkan "Tahun Kabisat"
 
 
-END ==> Mengetahui tahun kabisat atau tidak
+END ==> Mengetahui tahun kabisat atau tidak dengan beberapa kriteria
 
 Pseudocode:
 ==========
@@ -63,7 +61,7 @@ Algoritma:
 2. Sementara "clothes" belum mencapai 20, maka menambahkan "clothes" sebanyak 1
 4. Menampilkan "Washing clothes!"
 
-END ==> Mencuci pakaian dengan mesin cuci
+END ==> Mencuci 20 pakaian dengan mesin cuci
 
 Pseudocode:
 ==========
@@ -89,7 +87,7 @@ Algoritma:
 5. Menghukum siswa/ siswi
 6. Memuji siswa/ siswi
 
-END ==> Mengetahui kuku suatu siswa/ siswi panjang atau pendek
+END ==> Mengetahui kuku suatu siswa/ siswi panjang
 
 Pseudocode:
 ==========
